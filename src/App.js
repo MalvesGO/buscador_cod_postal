@@ -10,7 +10,7 @@ function App() {
   const [cep, setCep] = useState('')
 
   async function handleSearch(e) {
-
+e.preventDefault()
     if (input === '') {
       alert('Preencha o campo de busca')
       return
